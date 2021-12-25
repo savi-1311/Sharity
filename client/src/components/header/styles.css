@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 8vh;
+    justify-content: space-between;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+.logo{
+    display: flex;
+    font-size: 50px;
+    color: #E40A2D;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    font-family: 'Twinkle Star', cursive;
+}
+
+.links{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    margin: 0px 10px;
+    transition: linear 500ms;
+}
+
+.link:hover{
+    font-weight: bold;
+}
+
+.UserName{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.Login{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.UserName:hover{
+    cursor: pointer;
+}
+
+
+/************************/
+
+.header-container-dark{
+    position: absolute;
+    display: flex;
+    width: 95vw;
+    flex-direction: row;
+    align-items: center;
+    height: 8vh;
+    justify-content: space-between;
+    padding-right:20px;
+    padding-left:20px;
+    color: white;
+}
+
+.logo-dark{
+    display: flex;
+    font-size: 50px;
+    color: #E40A2D;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    font-family: 'Twinkle Star', cursive;
+    text-shadow:1px 1px 10px #000, 1px 1px 15px #ccc;
+    text-align:center;
+}
+
+.links-dark{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link-dark{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin: 0px 10px;
+    transition: linear 500ms;
+}
+
+.link-dark:hover{
+    font-weight: bold;
+}
+
+.UserName-dark{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.Login-dark{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.UserName-dark:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.right-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    width: 30vw;
+    min-height: 50vh;
+    background: aliceblue;
+    border-radius: 10px;
+}
+
+.cap{
+    height: 110px;
+    transform: scaleX(-1) rotate(20deg);;
+    position: absolute;
+    left: -50px;
+    top: -50px;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Secular One', sans-serif;
+    justify-content: space-between;
+    font-size: 30px;
+    color: black;
+}
+
+.title-text{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.coolness-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    background: #0000FF;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.coolness-container-inactive{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    background: #9FE2BF;
+    border: 2px solid deepskyblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.coolness-container:hover{
+    border: 2px solid deepskyblue;
+    cursor: pointer;
+}
+
+.coolness-container-inactive:hover{
+    cursor: unset;
+}
+
+.description-container{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button{
+    position: absolute;
+    font-size: 20px;
+    top: 10vh;
+    left:10px;
+    font-family: 'Secular One', sans-serif;
+    background-color: rgb(0,0,0,0.3);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image{
+    width: 350px;
+    height:550px;
+    margin: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+    text-align: center;
+}

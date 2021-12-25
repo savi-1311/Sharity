@@ -1,0 +1,36 @@
+.centers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.centre{
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.centre-image{
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.centre-name{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
